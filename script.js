@@ -101,7 +101,7 @@ const portfolioData = {
             id: 6,
             title: "German Language Learning Buddy",
             description: "A German language learning buddy helps you practice speaking, learn new words, and improve grammar in a fun and easy way.",
-            image: "german.PNG",
+            image: "germany.PNG",
             category: "generativeai",
             tech: ["Python", "Gemini", "Groq", "Flask","HTML/CSS"],
             github: "https://github.com/AshubShafqat/German-Language-Learning-Application",
