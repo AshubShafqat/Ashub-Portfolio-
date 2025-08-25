@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashub Shafqat - Portfolio</title>
+    <link rel="icon" type="image/jpg" href="logoc.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>  
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <span class="brand-text">Ashub Shafqat</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="nav-toggle" class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Ashub</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span id="typed-text" class="typed-text"></span>
+                        <span class="cursor"></span>
+                    </div>
+                    <p class="hero-description">
+                        BS Software Engineering student with hands-on experience in front-end development and Laravel. 
+                        Passionate about responsive design and creating seamless user experiences.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="Resume_AshubShafqat.pdf" download>
+                    <button class="btn btn-primary">
+                    <i class="fas fa-download"></i>
+                     Download Resume
+                     </button>
+                        </a>
+
+                    </div>
+                </div>
+                
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-ring">
+                        <!-- Profile image with protection -->
+                        <img src="AshubShafqat.jpg"
+                            alt="Profile photo of Ashub Shafqat"
+                            class="profile-img"
+                            oncontextmenu="return false"   
+                            ondragstart="return false" >    
+                    </div>
+
+                    <!-- Floating elements -->
+                    <div class="floating-element floating-ai">IT</div>
+                    <div class="floating-element floating-rocket">🚀</div>
+                </div>
+            </div>
+
+
+            
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm <strong>Ashub Shafqat</strong> — a <strong>Software Engineer</strong> specializing in with expertise in <strong>Laravel</strong> and modern UI frameworks.
+I specialize in developing clean, scalable, and user-friendly web applications. With hands-on experience in backend development using Laravel and frontend work with modern UI tools, I create solutions that are both functional and visually appealing.
+My passion lies in writing clean code, building responsive interfaces, and solving real-world problems through thoughtful design and efficient development practices. I enjoy working on projects that require both technical precision and creative thinking.
+Whether it’s building a custom admin panel, integrating APIs, or enhancing user experience, I strive to deliver high-quality results that make a lasting impact.
+                    </p>  
+                </div>
+                
+                <div class="highlights-grid">
+    <div class="highlight-card">
+        <div class="highlight-icon">
+            <i class="fas fa-code"></i>
+        </div>
+        <h3 class="highlight-title">Frontend Development</h3>
+        <p class="highlight-description">
+            Crafting responsive and interactive user interfaces using HTML, CSS, JavaScript, and ReactJS.
+        </p>
+    </div>
+    
+    <div class="highlight-card">
+        <div class="highlight-icon">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3 class="highlight-title">Laravel Framework</h3>
+        <p class="highlight-description">
+            Developing dynamic web applications and APIs using Laravel and modern PHP practices.
+        </p>
+    </div>
+    
+    <div class="highlight-card">
+        <div class="highlight-icon">
+            <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3 class="highlight-title">UI/UX Design</h3>
+        <p class="highlight-description">
+            Improving user experiences through clean, intuitive layouts and reusable components.
+        </p>
+    </div>
+    
+    <div class="highlight-card">
+        <div class="highlight-icon">
+            <i class="fas fa-database"></i>
+        </div>
+        <h3 class="highlight-title">Database Management</h3>
+        <p class="highlight-description">
+            Handling data with MySQL and integrating databases into full-stack web solutions.
+        </p>
+    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Tools</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Technologies and tools I use to bring ideas to life</p>
+            </div>
+            
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+            
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be populated by JavaScript -->
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">A showcase of my latest work in Website development and AI development </p>
+            </div>
+            
+            <div class="projects-filter">
+                <div class="filter-label">
+                    <i class="fas fa-filter"></i>
+                    <span>Filter:</span>
+                </div>
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Website Development</button>
+                <button class="filter-btn" data-filter="agenticai">Agentic AI</button>
+                <button class="filter-btn" data-filter="generativeai">Generative AI</button>
+                <button class="filter-btn" data-filter="deeplearning">Deep learning</button>
+                 
+                
+                
+                 
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+            
+            <div class="projects-cta">
+    <a href="https://github.com/AshubShafqat?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <button class="btn btn-primary">View All Projects on GitHub</button>
+    </a>
+</div>
+
+        </div>
+    </section>
+
+  <!-- Experience Section -->
+<section id="experience" class="experience section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="section-divider"></div>
+            <p class="section-description">My journey in software engineering and Website development</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Laravel | Front-End Developer | Computer Operator</h3>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Algorydhrm Developers, Sheikhupura
+                        </div>
+                        <div class="timeline-period">
+                            <i class="fas fa-calendar"></i>
+                            June 2023 – Present
+                        </div>
+                    </div>
+                    <p class="timeline-description">
+                        • Built and maintained responsive websites using HTML, CSS, JS, PHP and Laravel.<br>
+                        • Integrated API data into dynamic front-end pages.<br>
+                        • Designed reusable UI components.
+                    </p>
+                </div>
+            </div>
+
+        <!-- AI Practice Timeline Item -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <div class="timeline-header">
+                    <h3 class="timeline-title">AI Practice</h3>
+                    <div class="timeline-company">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Self-learning & Projects
+                    </div>
+                    <div class="timeline-period">
+                        <i class="fas fa-calendar"></i>
+                        2024 – Present
+                    </div>
+                </div>
+                <p class="timeline-description">
+                    Practicing machine learning, NLP, and AI-driven solutions.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3 class="timeline-title">Software Engineering Student</h3>
+                        <div class="timeline-company">
+                            <i class="fas fa-map-marker-alt"></i>
+                            University of Agriculture, Faisalabad
+                        </div>
+                        <div class="timeline-period">
+                            <i class="fas fa-calendar"></i>
+                            2022 – 2026
+                        </div>
+                    </div>
+                    <p class="timeline-description">
+                        Currently pursuing a Bachelor's degree in Software Engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+           
+
+
+        <div class="certifications">
+            <h3 class="certifications-title">Certifications & Achievements</h3>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <h4 class="cert-title">Full Stack Developer</h4>
+                    <p class="cert-issuer">PHP,LARAVEL</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card">
+                    <h4 class="cert-title">Computer Operator</h4>
+                    <p class="cert-issuer">Operating Tools</p>
+                    <p class="cert-year">2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+ <!-- Blog Section -->
+<section id="blog" class="blog section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="section-divider"></div>
+            <p class="section-description">
+                Exploring my journey in software development, web technologies, and academic experiences.
+            </p>
+        </div>
+        
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-header">
+                    <div class="blog-meta">
+                        <div class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            2025-08-06
+                        </div>
+                        <div class="blog-read-time">
+                            <i class="fas fa-clock"></i>
+                            4 min read
+                        </div>
+                    </div>
+                    <div class="blog-decorations">
+                        <div class="blog-decoration blog-decoration-1"></div>
+                        <div class="blog-decoration blog-decoration-2"></div>
+                    </div>
+                </div>
+
+                <div class="blog-content">
+                    <h3 class="blog-title">From Classroom to Codebase: My Training at Algorydhem Developers</h3>
+                    <p class="blog-excerpt">
+                        Discover how I transitioned from a university student to a real-world software developer during my internship at Algorydhem Developers.
+                    </p>
+                    <a href="https://ashubshafqat.hashnode.dev/from-classroom-to-codebase-my-training-at-algorydhem-developers" class="blog-link" target="_blank">
+                        Read Article
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </article>
+
+            
+            <article class="blog-card">
+                <div class="blog-header">
+                    <div class="blog-meta">
+                        <div class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            2025-08-06
+                        </div>
+                        <div class="blog-read-time">
+                            <i class="fas fa-clock"></i>
+                            6 min read
+                        </div>
+                    </div>
+                    <div class="blog-decorations">
+                        <div class="blog-decoration blog-decoration-1"></div>
+                        <div class="blog-decoration blog-decoration-2"></div>
+                    </div>
+                </div>
+                
+                <div class="blog-content">
+                    <h3 class="blog-title">Building a Laravel-Based E-Commerce System</h3>
+                    <p class="blog-excerpt">
+                        A complete walkthrough of creating a multivendor shopping platform using Laravel 12, Dropzone.js for media uploads, jQuery UI for sorting, and SweetAlert2 for UI feedback.
+                    </p>
+                    <a href="https://ashubshafqat.hashnode.dev/building-a-laravel-based-e-commerce-system-from-scratch-my-developer-journey" class="blog-link" target="_blank">
+                        Read Article
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </article>
+
+            
+            <article class="blog-card">
+                <div class="blog-header">
+                    <div class="blog-meta">
+                        <div class="blog-date">
+                            <i class="fas fa-calendar"></i>
+                            2025-06-20
+                        </div>
+                        <div class="blog-read-time">
+                            <i class="fas fa-clock"></i>
+                            6 min read
+                        </div>
+                    </div>
+                    <div class="blog-decorations">
+                        <div class="blog-decoration blog-decoration-1"></div>
+                        <div class="blog-decoration blog-decoration-2"></div>
+                    </div>
+                </div>
+                
+                <div class="blog-content">
+                    <h3 class="blog-title">Top 5 Lessons I Learned in BS Software Engineering</h3>
+                    <p class="blog-excerpt">
+                        From group projects to system design, here's what truly shaped my academic and personal growth.
+                    </p>
+                    <a href="https://ashubshafqat.hashnode.dev/top-5-lessons-i-learned-in-bs-software-engineering" class="blog-link">
+                        Read Article
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+        
+        <div class="blog-cta">
+            <a href="https://ashubshafqat.hashnode.dev/" class="btn btn-primary">View All Articles</a>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Say Hello</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Have a project in mind or want to discuss opportunities? I'd love to hear from you!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3 class="contact-title">Get in Touch</h3>
+                        <p class="contact-description">
+                            I'm always open to discussing new opportunities, interesting projects, 
+                            and potential collaborations. Feel free to reach out through any of the channels below.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:ashubshafqat@gmail.com" class="contact-method">
+                            <div class="contact-icon contact-icon-email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">ashubshafqat@gmail.com</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/ashab-shafqat/" target="_blank" class="contact-method">
+                            <div class="contact-icon contact-icon-linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">LinkedIn</div>
+                                <div class="contact-value">Connect with me</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/AshubShafqat" target="_blank" class="contact-method">
+                            <div class="contact-icon contact-icon-github">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-label">GitHub</div>
+                                <div class="contact-value">View my projects</div>
+                            </div>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3 class="form-title">Send a Message</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="What's this about?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" 
+                                      placeholder="Tell me about your project or how I can help..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Ashub Shafqat</div>
+                    <p class="footer-tagline">Made with ❤️ by Ashub Shafqat</p>
+                </div>
+                
+                <div class="footer-copyright">
+                    © 2025 All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
